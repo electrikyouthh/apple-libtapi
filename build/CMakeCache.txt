@@ -308,7 +308,7 @@ CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 CMAKE_DLLTOOL:FILEPATH=/usr/local/opt/binutils/bin/dlltool
 
 //Flags used by the linker during all build types.
-CMAKE_EXE_LINKER_FLAGS:STRING=-L/usr/local/opt/grpc@1.54/lib
+CMAKE_EXE_LINKER_FLAGS:STRING=-L/usr/local/opt/flex/lib
 
 //Flags used by the linker during DEBUG builds.
 CMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=
@@ -393,7 +393,7 @@ CMAKE_MAKE_PROGRAM:FILEPATH=/usr/local/bin/gmake
 
 //Flags used by the linker during the creation of modules during
 // all build types.
-CMAKE_MODULE_LINKER_FLAGS:STRING=-L/usr/local/opt/grpc@1.54/lib
+CMAKE_MODULE_LINKER_FLAGS:STRING=-L/usr/local/opt/flex/lib
 
 //Flags used by the linker during the creation of modules during
 // DEBUG builds.
@@ -463,7 +463,7 @@ CMAKE_READELF:FILEPATH=/usr/local/opt/binutils/bin/readelf
 
 //Flags used by the linker during the creation of shared libraries
 // during all build types.
-CMAKE_SHARED_LINKER_FLAGS:STRING=-L/usr/local/opt/grpc@1.54/lib
+CMAKE_SHARED_LINKER_FLAGS:STRING=-L/usr/local/opt/flex/lib
 
 //Flags used by the linker during the creation of shared libraries
 // during DEBUG builds.
@@ -1722,7 +1722,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_Git:INTERNAL=[/usr/local/bin/git][v2.41.0()]
 //Details about finding LibXml2
 FIND_PACKAGE_MESSAGE_DETAILS_LibXml2:INTERNAL=[/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/lib/libxml2.tbd][/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/libxml2][v2.9.13()]
 //Details about finding PythonInterp
-FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/local/bin/python][v3.11.3()]
+FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/local/bin/python][v3.11.4()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //Details about finding Z3

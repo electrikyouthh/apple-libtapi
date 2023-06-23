@@ -28,7 +28,7 @@ struct AvailableComponent {
   { "aarch64info", "LLVMAArch64Info", true, { "support" } },
   { "aarch64utils", "LLVMAArch64Utils", true, { "support" } },
   { "aggressiveinstcombine", "LLVMAggressiveInstCombine", true, { "analysis", "core", "support", "transformutils" } },
-  { "all", nullptr, true, { "coroutines", "testingsupport", "xray", "objectyaml", "fuzzmutate", "lineeditor", "tablegen", "lto", "libdriver", "all-targets", "optremarks", "mirparser", "engine", "nativecodegen", "orcjit", "windowsmanifest", "interpreter", "dlltooldriver", "gtest_main", "symbolize", "mca", "coverage", "textapi" } },
+  { "all", nullptr, true, { "lto", "testingsupport", "orcjit", "xray", "coverage", "gtest_main", "coroutines", "optremarks", "lineeditor", "interpreter", "libdriver", "all-targets", "windowsmanifest", "nativecodegen", "engine", "mirparser", "textapi", "tablegen", "dlltooldriver", "symbolize", "mca", "objectyaml", "fuzzmutate" } },
   { "all-targets", nullptr, true, { "aarch64", "amdgpu", "arm", "bpf", "hexagon", "lanai", "mips", "msp430", "nvptx", "powerpc", "sparc", "systemz", "webassembly", "x86", "xcore" } },
   { "amdgpu", nullptr, true, { "amdgpuutils", "amdgpuasmprinter", "amdgpuinfo", "amdgpudesc", "amdgpuasmparser", "amdgpucodegen", "amdgpudisassembler" } },
   { "amdgpuasmparser", "LLVMAMDGPUAsmParser", true, { "mc", "mcparser", "amdgpudesc", "amdgpuinfo", "amdgpuutils", "support" } },

@@ -1,0 +1,8 @@
+/usr/local/include/tapi/APIVersion.h
+/usr/local/include/tapi/Defines.h
+/usr/local/include/tapi/LinkerInterfaceFile.h
+/usr/local/include/tapi/PackedVersion32.h
+/usr/local/include/tapi/Symbol.h
+/usr/local/include/tapi/tapi.h
+/usr/local/include/tapi/Version.h
+/usr/local/include/tapi/Version.inc
